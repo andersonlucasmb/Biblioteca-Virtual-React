@@ -1,0 +1,19 @@
+.App {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  
+  .catalogo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+  }
+  
+  .filter {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
